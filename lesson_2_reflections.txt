@@ -3,3 +3,14 @@ It is a repository with untracked files. You need to add files to track to it.
 
 2 - How is the staging area different from the working directory and the repository? What value do you think it offers?
 I imagine it like a holding area that allows you to group together your commits and check them before the final commit.
+
+3 - How can you use the staging area to make sure you have one commit per logical change?
+You can check the differences between files here and only commit related changes.
+
+4 - What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Trying out new features. Making experimental changes that may break the code.
+Different people to work on different features?
+
+5 - How do the diagrams help you visualize the branch structure?
+Graph diagrams help to show the various paths and also highlight where the master path and the current head is. 
+Makes it easier to understand how orhaned branches could come about.
