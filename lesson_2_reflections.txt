@@ -13,4 +13,8 @@ Different people to work on different features?
 
 5 - How do the diagrams help you visualize the branch structure?
 Graph diagrams help to show the various paths and also highlight where the master path and the current head is. 
-Makes it easier to understand how orhaned branches could come about.
+Makes it easier to understand how orphaned branches could come about.
+
+6 - What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Incorporates all the changes made to both branches and merges into one.
+Not sure why it is represented as it is, it is just a merge. Not sure what they mean
