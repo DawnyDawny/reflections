@@ -1,0 +1,37 @@
+1 - How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It allows you to only view the parts that have changed as opposed to doing a manual line by line comparison.
+
+2 - How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It is easy to go back to old versions and see what has changed. I.e. if you have introduced a bug in a new version by accident
+looking back at the old version allows you to see exactly what changed and where the bug is likely to be. 
+Especially useful if you have made many changes over time and these have cumulated to a bug. Rolling back to a version before the
+bug existed allows you to go through each bit step by step.
+
+3 - What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions 
+automatically saved, like Google docs does?
+Pros:
+Able to commit working versions of code at each commit.
+Able to commit small amounts of work regularly.
+Easy to track provided regular commits are made and commented.
+
+Cons:
+Relies on coder to regularly commit. Not forced to commit after each change, therefore diffs could ge too big.
+May forget to commit.
+May commit too often, making the history hard to understand.
+
+
+4 - Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+For version control relating to coding, it would be quite common for there to be interdependencies between files. CSS & HTML for instance. Or several modules within a 
+Python project. In order to keep the code running correctly, changes would need to be made across multiple files. Therefore it makes sense for the VC system to
+track this.
+
+5 - How can you use the commands git log and git diff to view the history of files?
+git log shows you a history of all the commits and their id's. Once you have the id's you can compare the files and see how many and what changes were made
+between versions.
+
+6 - How might using version control make you more confident to make changes that could break something?
+With VC it is easy to back out any changes and revert back to the old version.
+
+7 - Now that you have your workspace set up, what do you want to try using Git for?
+Updating python projects for Coursera courses.
+ 
