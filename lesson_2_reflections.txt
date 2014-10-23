@@ -1,2 +1,5 @@
 1 - What happens when you initialize a repository? Why do you need to do it?
 It is a repository with untracked files. You need to add files to track to it.
+
+2 - How is the staging area different from the working directory and the repository? What value do you think it offers?
+I imagine it like a holding area that allows you to group together your commits and check them before the final commit.
