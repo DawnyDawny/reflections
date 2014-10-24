@@ -2,3 +2,8 @@
 When you want to collaborate with others on a project.
 When you want to work on a project from more than one location or computer.
 When you want to keep an online backup?
+
+2 - Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+If others have been collaborating on a project, you may not always want to take their changes straight away, especially if you have been working on the
+same areas. You may have tried something out from another machine but decide you don't actually want it.
+Automatic pulls may result in you overwirting files that you didn't mean to.
